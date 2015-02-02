@@ -16,7 +16,7 @@ jQuery(document).ready(function(){
 
 $(document).ready(function() {
     $('.thumbs').portfolio({
-        cols: 3,
+        cols: 2,
         transition: 'slideDown'
     });
 });

@@ -80,6 +80,7 @@ ul.thumbs li a.thumbnail .active-arrow {
     margin: 0 auto;
 }
 
+
 @media (max-width: 970px)  {
 	ul.thumbs li {
 		width: 50% !important;
@@ -88,10 +89,17 @@ ul.thumbs li a.thumbnail .active-arrow {
 		width: 100%;
 	}
 }
-
+@media (max-width: 760px)  {
+	ul.thumbs li {
+		width: 100% !important;
+	}
+	.media iframe{
+		width: 100%;
+	}
+}
 @media (max-width: 1200px) and (min-width: 970px) {
     ul.thumbs li {
-        width: 33.3333% !important;
+        width: 50% !important;
     }
 }
 

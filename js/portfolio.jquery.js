@@ -49,8 +49,8 @@ if (typeof Object.create !== 'function') {
                     if (i !== (thumbnails.length - 1)) {
 
                         var cols = self.options.cols;
-                        if ($(window).width() <= 1200 && $(window).width() > 970) cols = 3;
-                        else if ($(window).width() <= 970 && $(window).width() > 590) cols = 2;
+                        if ($(window).width() <= 1200 && $(window).width() > 970) cols = 2;
+                        else if ($(window).width() <= 970 && $(window).width() > 590) cols = 1;
                         else if ($(window).width() <= 590) cols = 1;
 
                         // thumb position
@@ -101,6 +101,7 @@ if (typeof Object.create !== 'function') {
             self.$elem.find('.close').click(function(){
                 self.$elem.find('li a.thumbnail .active-arrow').remove();
                 self.$elem.find('li.content').slideUp();
+                $('.page-scroll a').click();
             });
         }
     };
