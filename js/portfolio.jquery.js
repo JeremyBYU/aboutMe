@@ -100,7 +100,7 @@ if (typeof Object.create !== 'function') {
             // Close content
             self.$elem.find('.close').click(function(){
                 self.$elem.find('li a.thumbnail .active-arrow').remove();
-                self.$elem.find('li.content').remove();
+                self.$elem.find('li.content').slideUp();
             });
         }
     };
