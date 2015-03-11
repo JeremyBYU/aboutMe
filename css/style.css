@@ -794,7 +794,7 @@ footer p{
     padding-left: 0px;
 }
 /*Should work on small screens  */
-@media only screen and (max-width : 599px) {
+@media only screen and (max-width : 768px) {
     .header-span{
     float:left;
     }
