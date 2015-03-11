@@ -785,7 +785,20 @@ footer p{
 /* Styles */
 
 }
-
+/*should be default */
+.header-span{
+    float:right;
+}
+.noMargin{
+    margin-left:  0px;
+    padding-left: 0px;
+}
+/*Should work on small screens  */
+@media only screen and (max-width : 599px) {
+    .header-span{
+    float:left;
+    }
+}
 @media only screen and (max-width : 480px) {
 /* Styles */
 
@@ -817,6 +830,8 @@ footer p{
 	#personal-info .btn-group button{
 		font-size: 8pt;
 	}
+
+ 
 
 }
 
